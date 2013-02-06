@@ -832,7 +832,7 @@ Note: An application will usually have at least one route mapping a URL route to
 
 Let us now define our first router by extending `Backbone.Router`. For the purposes of this guide, we're going to continue pretending we're creating a complex todo application (something like personal organize/planner) that requires a complex TodoRouter.
 
-Note the inline comments in the code example below as they continue the rest of the lesson on routers.
+The inline comments in the code example below should help you understand what is happening.
 
 ```javascript
 var TodoRouter = Backbone.Router.extend({
