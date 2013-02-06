@@ -570,7 +570,7 @@ Note that using `Collection.reset()` doesn't fire any `add` or `remove` events. 
 
 ### Underscore utility functions
 
-As Backbone requires Underscore as a hard dependency, we're able to use many of the utilities it has to offer to aid with our application development. Here's an example of how Underscore's `forEach` method that can be used for iterating over collection and `sortBy()` method that can be used to sort a collection of todos based on a particular attribute.
+As Backbone requires Underscore as a hard dependency, we're able to use many of the utilities it has to offer to aid with our application development. Here's an example of how Underscore's `forEach` method can be used for iterating over collection and `sortBy()` method can be used to sort a collection of todos based on a particular attribute.
 
 ```javascript
 var TodosCollection = new Backbone.Collection();
